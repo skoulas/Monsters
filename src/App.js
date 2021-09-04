@@ -5,7 +5,11 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      monsters: [],
+      monsters: [
+        { name: "Foufoutos", id: "aser1" },
+        { name: "Drakoula", id: "aser2" },
+        { name: "Zombie", id: "aser3" },
+      ],
     };
   }
 
